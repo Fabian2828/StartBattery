@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto Slab', serif; /* fuente ( tipo de letra) */
+    max-width: 900px; /* ancho maximo */
+    margin: 0 auto; /* margen de la pagina */
+}
+
+
+nav{
+    width: 100%; /* ancho del color */
+    height: 130px; /* alto */
+    background-color: rgb(161, 229, 238); /* color de fondo */
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 15px 35px;
+}
+
+nav ul li:hover{ /* cuando este sobre un elemento cambie de color */
+    background-color: aliceblue;
+}
+
+/* clases en css : conjunto de propiedades especializadas ejemplo animación */
+
+
+.img-logo{
+    width: 180px;
+    padding: 20px;
+}
+
+nav ul{
+    display: inline-flex;
+    position: relative;
+    top: -40px;
+}
+
+nav ul li a{
+    text-decoration: none; /* decoración de texto */
+    color: rgb(0, 0, 0); /* color de letra */
+}
+
+h2, figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* estilos sección 1  */
+
+.seccion1{
+    background-color: rgb(19, 233, 151); /* color de fondo */
+    padding: 15px;
+}
+
+.video1{
+    width: 55%;
+    padding: 20px;
+}
+
+
+.texto{
+    width: 40%;
+    padding: 2px;
+    vertical-align: top;
+}
+
+
+article{
+    padding: 30px;
+    background-color: beige;
+} 
+
+article h2{ /* crear rayita debajo de un titulo */
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+}
+
+
+.texto,.video1{ /* poner uno al lado del otro texto y video */
+    display: inline-block;
+}
+
+.boton{
+   text-align: center; /* aliniar texto */
+   background-color: rgb(24, 216, 104);
+   padding: 10px;
+}
+
+/* quitar decoración tento del boton */
+
+.boton a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+.boton:hover{
+    background: rgb(4, 202, 252);
+}
+
+
+/* articles */
+
+section{
+    background-color: rgb(161, 229, 238); /* color de fondo */
+    padding: 55px;
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 1px solid rgb(175, 26, 26);
+}
+
+.img-art{
+    max-width: 100%;
+}
+
+.cont-art{
+    width: 750px;
+    vertical-align: top;
+}
+
+footer{
+    background-color: beige;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

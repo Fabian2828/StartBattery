@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto Slab', serif; /* fuente ( tipo de letra) */
+    max-width: 900px; /* ancho maximo */
+    margin: 0 auto; /* margen de la pagina */
+}
+
+
+nav{
+    width: 100%; /* ancho del color */
+    height: 130px; /* alto */
+    background-color: rgb(161, 229, 238); /* color de fondo */
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 15px 35px;
+}
+
+nav ul li:hover{ /* cuando este sobre un elemento cambie de color */
+    background-color: aliceblue;
+}
+
+/* clases en css : conjunto de propiedades especializadas ejemplo animación */
+
+
+.img-logo{
+    width: 180px;
+    padding: 20px;
+}
+
+nav ul{
+    display: inline-flex;
+    position: relative;
+    top: -40px;
+}
+nav ul li a{
+    text-decoration: none; /* decoración de texto */
+    color: black; /* color de letra */
+}
+
+h2, figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* estilos sección 1  */
+
+.seccion1{
+    background-color: rgb(161, 229, 238); /* color de fondo */
+    padding: 15px;
+}
+
+.imagensec2{ /* imagen seccion willard primera */
+    width: 55%;
+    padding: 20px;
+}
+
+.texto1{
+    width: 40%;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.imagensec2, .texto1{
+    display: inline-block;
+}
+
+.boton1 a{
+    text-decoration: none;
+    color: rgb(1, 2, 2);
+}
+
+
+.boton1{
+    text-align: center;
+    background-color: rgb(19, 192, 71);
+    padding: 2px;
+}
+
+.boton1 :hover{
+    background: rgb(10, 238, 162);
+}
+
+/* seccion 2  */
+
+article h3{
+    border-bottom: 1px solid black;
+}
+
+section h3{
+    border-bottom: 1px solid black;
+
+}
+
+
+/* sección 3 */
+
+article h2{
+    border-bottom: 1px solid black;
+}
+
+section h2{
+    border-bottom: 1px solid black;
+}
+
+
+
+/* footter */
+
+footer{
+    background-color: beige;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+
