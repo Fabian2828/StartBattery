@@ -1,161 +1,95 @@
-<!DOCTYPE html> <!-- ALT + SHIFT + A sirve para hacer comentarios documento html -->
-<html lang="es">  <!-- lang =  lengiaje contenido en la pagina web es = español -->
-<head> <!-- cabeza - no es visible para el usuario, tiene todas las conexciones int y ext del sitio web -->
-    <meta charset="UTF-8">  <!-- permite visuaizar caracteres especiles -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
- <!-- permite identificar en que tamaño de navegador ha sido aberto mi pagina web -->
-    <title>BATERÍAS PARA CARROS</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/style1.css">
+    <link rel="stylesheet" href="./estilos/style1.css">
+    <link rel="stylesheet" href="./estilos/mq.css">
+
+    <!--alt - shift - f  organizar el codigo -->
 </head>
-<body><!-- CUERPO todo lo visible para el usuario- contenido multimedia - vios - tablas- barras de navegación -->
+
+<body>
+
+    <div class="contenedor">
+
+
+        <header>
+            <nav>
+                <a href="./index.html"> <img src="./images/LN5.jpg"  class="img-logo"></a>
+                <ul>
+                    <li> <a href="./index.html"> Inicio </a></li>
+                    <li> <a href="./Baterias Willard.html"> Baterias Willard </a></li>
+                    <li> <a href="#Mac"> Baterias Mac </a></li>
+                    <li> <a href="./Baterías Bosh.html"> Baterias Bosch </a></li>
     
-    <!-- etiquetas para estructurar el html   -->
-
-    <header></header> <!-- permite definir la cabecera y esta suele llevar el logotivo y la barra de navegación, en el inicoo de la pagina -->
-    <footer></footer> <!-- pide de pagna, redes sociales, y lins de importancia -->
-    <nav></nav> <!-- permite definir la barra de navegación -->
-    <main></main> <!-- define el contenido principal del sitio eb -->
-    <section></section> <!-- seccion de la pagina, viodeo, imagen dentro del sitio web. -->
-    <article></article> <!-- define un contenido independiente de la web -->
-    <aside></aside> <!-- permite alojar un contenido adicional al sitio web -->
-
-
-    <!-- etiquetas de texto o contenido -->
-
-    <!-- la familia de las H de la 1 -6  todo minuscula, familia titulos -->
-     <h1>BATERIAS PARA CARROS EN BOGOTA</h1> <!-- titutlo principal -->
-      
-     <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi nostrum deleniti nobis quae sunt, repellendus sed quidem voluptatibus. Non enim mollitia laudantium facilis cum quia blanditiis et eveniet sequi.</P> <!-- PARRAFOS --> <!-- ALT + Z ACOMODAR TEXTO -->
-
-
-     <hr> <!-- barra lateral PARA SEPERAR EN LA WEB -->
-
-    <!-- LISTAS DENTRO DE HTML -->
-
-    <ol type="A"> <!-- lista ordenada --> <!-- dentro de la etiqueta colocar type para colocar números romanos -->
-        <li>perro</li>
-        <li>gato</li>
-        <li>pez</li>
-    </ol>
-
-
-    <ul> <!-- lista desordenada --> 
-        <li>perro</li>
-        <li>gato</li>
-        <li>pez</li>        
-    </ul>
-
-
-
-    <dl> <!-- lista de definiciones -->
-        <dt>Gato:</dt> <!--  para los titulos -->
-        <dd>es un animal doestico</dd> <!-- para las definiciones "gatos" -->
-
-        <dt>perro</dt>
-        <dd>el mejor amigo del hombre</dd>
-    </dl>
-
-
-    <!-- sematica especiales para texto -->
-
-    <a href="./Baterias Renault.html" target="_blank" >BATERIAS RENAULT</a> <!-- hipervinculos --> <!-- blank para que se habra el hypervinculo en otra pestaña -->
-
-    <a href="./Baterias Renault.html" target="_blank" ><img src="./imagenes/76-home_default.jpg" alt="bateria willard si existe algun error"   width="230px"  height="auto"></a>  <!-- alt = se puede colocar una descripccion error  -->
-
-    <p>Lorem ipsum, dolor sit amet, <strong>  consectetur </strong> consectetur adipisicing elit. Vitae maiores facere officiis sit aut qui corrupti dolorum vel odio nulla! Corporis doloremque ullam alias minima, officia iste praesentium! Architecto, vel!</p>
-
-    <!-- strong es para resaltar alguna palabra en negrita en lapagina web -->
-
-    <cite>Hecho por fabian monroy</cite> <!-- etiqueta para cotar -->
-
-
-    <p>
-        H<sup>2</sup>0 <!-- superindice -->
-        H<sub>2</sup>0 <!-- subindice -->
-    </p>
-
-    <mark> Hola mundo</mark> <!-- resaltar un texto -->
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    <br> <!-- especacio entre parrafos -->
-    <br>
-    Fuga, ut? Sint tempore quasi unde possimus quam. Vitae quod quam magnam obcaecati vero non. Provident ipsa id, quis dignissimos amet fugit.</p>
-
-    <audio src="./muscia/Falling In Reverse - Chemical Prisoner - SUB ESPAÑOL [HD].mp3"  controls></audio>
-
-    <video src="./videos/WIN_20170814_211233.MP4"  controls  width="200px"></video>
-
-
-     <!-- insertar videos de youtube -->   
-
-     <iframe width="300" height="auto" src="https://www.youtube.com/embed/yGwNXclRRWY?list=PLpD_vYWjZt13ViH9Xwiqry3tedqYsOiTL" title="DIPLOMADOS DW CAMILA REYES (30 de agosto 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-
-     <!-- UBICACIÓN DE ALGUN LUGAR -->
-
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63626.92952307852!2d-74.20745972089844!3d4.650493600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9d1535ce7899%3A0x912f52dcc757a778!2sBATERIAS%20PARA%20CARROS!5e0!3m2!1ses!2sco!4v1694373252534!5m2!1ses!2sco" width="400" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
+                </ul>
     
+            </nav>
 
-</body>
-</html>
+        </header>
+
+        <!-- seccion 1 willard -->
+        <section>
+            <figure class="imagensec2">
+                <img src="./imagenes/willar11.png" alt="">
+            </figure>
+    
+    
+            <div class="texto1">
+                <h2> Baterías Para carros Willard</h2>
+                <p>Las baterías Willard son de calidad internacional en vista de que tienen asistencia técnica de Exide Corporation de los Estados Unidos. Esta Corporación tiene el 23 por ciento del mercado mundial y es indudable que con su asistencia es que Willard es líder en el mercado nacional.</p>
+
+            <div class="boton1"
+            ><a href="#">
+                <div> Más Información</div>
+            </a>
+            </div >
+        </section>
+
+        <section>
+            <h3> Importancia de las Baterías Willard</h3>
+            <p>Es un producto de alta categoría en lo relacionado con acumuladores de descarga profunda que brindan una recuperación casi inmediata en la recarga y activación de energía para las necesidades de alto consumo eléctrico en vehículos de gama alta.
+                Lo mejor es mantener la batería a temperatura ambiente y evitar dejarla expuesta al sol directo o a lugares extremadamente fríos. Evita la carga rápida constante: Aunque la carga rápida es una característica conveniente de muchos dispositivos actuales, no es bueno para la vida útil de la batería.
+            </p>
+        </section>
 
 
-
-
-
-
-
-
-
-
+        <section class="seccion1">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/ATbnGcasKOI" title="Baterías Willard LAS DURAS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+                </iframe>
+    
+            <article class="texto">
+                <h2> ¿Que tecnología trae una Batería Willard </h2>
+                <p>En circunstancias normales, no debería de haber ningún problema al instalar una batería mayor capacidad,
+                    A mayor capacidad de reserva mayor autonomia, Si hay más reserva puede usar los sistemas más tiempo sin encender el motor y demorará más en desocuparse, pero sucederá.
+                </p>
+    
+    
+                <div class="boton">
+                    <a href="#">
+                        <div> Más Información</div>
+                    </a>
+                </div>
+            </article>
+    
+            <footer>
+                <address> COMPRYRIGHT - 2023 DERECHOS RESERVADOS BATERÍAS PARA CARROS</address>
+        
+                <div>
+                    <a href="#">Instagram</a>|
+                    <a href="#">Twitter</a>|
+                    <a href="#">Facebook</a>|
+                    <a href="#">311678906</a>
+                </div>
+        
+            </footer>
+        
+        </div>

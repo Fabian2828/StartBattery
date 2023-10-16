@@ -1,10 +1,31 @@
-[0911/073711.506:ERROR:crash_report_database_win.cc(426)] unexpected header
+
 [0911/083936.885:ERROR:crash_report_database_win.cc(426)] unexpected header
 [0911/093832.085:ERROR:crash_report_database_win.cc(426)] unexpected header
 [0911/094031.037:ERROR:crash_report_database_win.cc(426)] unexpected header
 [0911/094135.906:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
 [0911/094135.908:ERROR:crash_report_database_win.cc(426)] unexpected header
 [0916/111404.552:ERROR:settings.cc(266)] Settings version is not 1
-[0916/111404.554:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0916/111404.554:ERROR:crash_rept_database_win.cc(426)] unexpected header
 [0916/152700.954:ERROR:settings.cc(266)] Settings version is not 1
 [0916/152700.955:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0916/182423.649:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0917/144315.482:ERROR:settings.cc(266)] Settings version is not 1
+[0917/144315.483:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0917/144335.941:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1001/033828.651:ERROR:settings.cc(266)] Settings version is not 1
+[1001/033828.653:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1001/033843.969:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1001/033850.046:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/155952.375:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
+[1014/155952.376:ERROR:settings.cc(266)] Settings version is not 1
+[1014/155952.378:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/160948.864:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/161152.344:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/161436.078:ERROR:settings.cc(266)] Settings version is not 1
+[1014/161436.079:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/162405.111:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1014/170100.958:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
+[1014/170100.972:ERROR:settings.cc(266)] Settings version is not 1
+[1014/170100.973:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1015/202915.435:ERROR:settings.cc(266)] Settings version is not 1
+[1015/202915.436:ERROR:crash_report_database_win.cc(426)] unexpected header

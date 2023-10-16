@@ -57,13 +57,13 @@ img{
 }
 
 .imagensec2{ /* imagen seccion willard primera */
-    width: 40%;
-    padding: -10px;
+    width: 55%;
+    padding: 20px;
 }
 
 .texto1{
-    width: 55%;
-    padding: 5px;
+    width: 40%;
+    padding: 2px;
     vertical-align: top;
 }
 
@@ -107,11 +107,6 @@ article h2{
 
 section h2{
     border-bottom: 1px solid black;
-}
-.boton2{
-    text-align: center;
-    background-color: rgb(19, 192, 71);
-    padding: 2px;
 }
 
 
