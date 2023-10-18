@@ -8,7 +8,7 @@ body{
 nav{
     width: 100%; /* ancho del color */
     height: 130px; /* alto */
-    background-color: rgb(161, 229, 238); /* color de fondo */
+    background-color: rgb(224, 238, 243); /* color de fondo */
 
 }
 
@@ -16,25 +16,25 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     transition: 0.8s all;
-    padding: 45px 75px;
+    padding: 20px 80px;
 }
 
 nav ul li:hover{ /* cuando este sobre un elemento cambie de color */
-    background-color: aliceblue;
+    background-color: rgb(177, 224, 241);
 }
 
 /* clases en css : conjunto de propiedades especializadas ejemplo animación */
 
 
 .img-logo{
-    width: 180px;
+    width: 90px;
     padding: 20px;
 }
 
 nav ul{
     display: inline-flex;
     position: relative;
-    top: -40px;
+    top: -20px;
 }
 nav ul li a{
     text-decoration: none; /* decoración de texto */
@@ -52,7 +52,7 @@ img{
 /* estilos sección 1  */
 
 .seccion1{
-    background-color: rgb(161, 229, 238); /* color de fondo */
+    background-color: rgb(224, 238, 243); /* color de fondo */
     padding: 15px;
 }
 

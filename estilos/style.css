@@ -7,8 +7,9 @@ body{
 
 nav{
     width: 100%; /* ancho del color */
-    height: 140px; /* alto */
-    background-color: rgb(255, 255, 255); /* color de fondo */
+    height: 40px; /* alto */
+    background-color: rgb(224, 238, 243); /* color de fondo */
+   
 
 }
 
@@ -16,18 +17,18 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     transition: 0.8s all;
-    padding: 40px 70px;
+    padding: 20px 80px;
 }
 
 nav ul li:hover{ /* cuando este sobre un elemento cambie de color */
-    background-color: aliceblue;
+    background-color: rgb(177, 224, 241);
 }
 
 /* clases en css : conjunto de propiedades especializadas ejemplo animación */
 
 
 .img-logo{
-    width: 150px;
+    width: 90px;
     padding: 20px;
 }
 
@@ -94,11 +95,11 @@ article h2{ /* crear rayita debajo de un titulo */
 
 .boton a{
     text-decoration: none;
-    color: rgb(252, 252, 252);
+    color: rgb(248, 142, 142);
 }
 
 .boton:hover{
-    background: rgb(4, 202, 252);
+    background: rgb(224, 238, 243);
 }
 
 
